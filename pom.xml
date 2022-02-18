@@ -43,13 +43,13 @@
                 <version>0.8.5</version>
                 <executions>
                     <execution>
-                        <id>prepare-agent-Syndrome100</id>
+                        <id>prepare-agent-Radioman</id>
                         <goals>
                             <goal>prepare-agent</goal>
                         </goals>
                     </execution>
                     <execution>
-                        <id>report-syndrome100</id>
+                        <id>report-radioman</id>
                         <phase>verify</phase>
                         <goals>
                             <goal>report</goal>
@@ -78,7 +78,4 @@
             </plugin>
         </plugins>
     </build>
-
-
-
 </project>
