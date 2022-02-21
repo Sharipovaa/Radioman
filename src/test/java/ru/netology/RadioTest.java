@@ -12,8 +12,8 @@ class RadioTest {
         radio.setCurrentRadioStation(9);
 
         int expected = 9;
-        int actuall = radio.getCurrentRadioStation();
+        int actual = radio.getCurrentRadioStation();
 
-        assertEquals(expected, actuall);
+        assertEquals(expected, actual);
     }
 }
